@@ -1,0 +1,23 @@
+name: lm-sae-interp-env
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pytorch
+  - torchvision
+  - umap-learn
+  - pip:
+      - git+https://github.com/ndif-team/nnsight@0.3
+      - git+https://github.com/neelnanda-io/TransformerLens
+      - blobfile
+      - jaxtyping
+      - simple-parsing
+      - orjson
+      - torchtyping
