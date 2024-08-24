@@ -9,4 +9,4 @@ Steps to use:
 4. Run the `download_oai_sae.py` script to download the OpenAI SAE that you want. For example, this might look like:
 `python -m scripts.download_oai_sae -1`.
 5. Run the `cache_features.py` script to cache features. You should look through that file and modify it to use the layers, features, and model you want. You can then run it as `python -m scripts.cache_features`.
-6. Run the `generate_act_dists_data.py`
+6. Run the `generate_act_dists_data.py` to visualize features/activations or look through the notebooks for exploration.
